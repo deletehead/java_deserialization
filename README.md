@@ -2,7 +2,7 @@
 ## Purpose
 This post describes in-depth _how_ a Java application can take serialized user-controlled input, deserialize it via a method such as `readObject` and get to remote code execution (RCE), using a specific example payload from the `ysoserial` tool. This writeup is an attempt to understand this for Offensive Security's Advanced Web Attacks & Exploitation course and OSWE exam.
 
-NOTE: This post is nothing new. I would like to credit DiabloHorn and Nick Bloor for their blog posts I used to learn this information. Much of this post is regurgitation of these blog posts to solidify my knowledge. See "Credits & Resources".
+NOTE: This post is nothing new. I would like to credit DiabloHorn and Nick Bloor for their blog posts I used to learn this information. Much of this post is regurgitation of these blog posts to solidify my knowledge. See [Credits & Resources](#credits--resources).
 ## Background
 This analysis will assume _basic_ knowledge of object-oriented programming (OOP) and serialization, but not necessarily deep understanding. It is targeted towards infrastructure penetration testers who are studying application security.
 
